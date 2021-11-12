@@ -1,0 +1,58 @@
+// main typography
+@import "./colors.scss"; // headers
+
+.header1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.header2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.header3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.hero-header {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.header1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+// body
+.body1 {
+  font-size: 18px;
+}
+
+.body2 {
+  font-size: 16px;
+}
+
+.subtitle {
+  color: $grey300;
+}
+
+.italic {
+  font-style: italic;
+}
+
+// hierearchy
+.secondary {
+  color: $grey300;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  color: $grey900;
+}
